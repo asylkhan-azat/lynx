@@ -1,6 +1,6 @@
 ﻿namespace Lynx.Domain.Ports;
 
-public interface IRepositoryInteractor
+public interface IRepositoryInteractor : IDisposable
 {
     string Path { get; }
 }
