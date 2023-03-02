@@ -50,4 +50,8 @@
 	  <Folder Include="Views\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Lynx.Infrastructure\Lynx.Infrastructure.csproj" />
+	</ItemGroup>
+
 </Project>
