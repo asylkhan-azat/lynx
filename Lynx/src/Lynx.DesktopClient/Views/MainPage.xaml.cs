@@ -1,10 +1,13 @@
-﻿namespace Lynx.DesktopClient;
+﻿using Lynx.DesktopClient.ViewModels;
+
+namespace Lynx.DesktopClient.Views;
 
 public partial class MainPage : ContentPage
 {
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    public MainPage(MainPageViewModel gitViewModel)
+    {
+        InitializeComponent();
+        BindingContext = gitViewModel;
+    }
 }
 
